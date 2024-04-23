@@ -9,7 +9,7 @@ router
 
 
 .get('/update/:id', moviesController.detail)
-.get('/add', moviesController.addMovie)
+.get('/addMovie', moviesController.addMovie)
 
 
 module.exports = router;

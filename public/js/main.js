@@ -82,6 +82,7 @@ window.onload = async () => {
       favoriteList.textContent = 'Ver favoritos';
       encabezado.appendChild(favoriteList);
     }
+    console.log(favoriteMovies);
   } catch (error) {
     console.log("Error: ", error);
   }
